@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-21T18:15:41.474Z</updated>
+  <updated>2023-10-21T20:55:45.297Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,21 +18,24 @@
   
   <entry>
     <title>Hexo的常用命令</title>
-    <link href="http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
-    <id>http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</id>
+    <link href="http://example.com/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2023-10-21T18:06:54.000Z</published>
-    <updated>2023-10-21T18:15:41.474Z</updated>
+    <updated>2023-10-21T20:55:45.297Z</updated>
     
-    <content type="html"><![CDATA[<p>常用指令和发布文章<br>hexo new “postName”        &#x2F;&#x2F;新建文章<br>hexo new page “pageName”        &#x2F;&#x2F;新建页面<br>hexo g          &#x2F;&#x2F;生成静态页面至public目录<br>hexo server         &#x2F;&#x2F;开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy         &#x2F;&#x2F;将.deploy目录部署到GitHub</p><p>常用组合<br>hexo clean<br>hexo g<br>hexo d<br>hexo d -g #生成部署<br>hexo s -g #生成预览</p><p>发布文章<br>hexo new “xxx”</p><p>名为xxx.md的文件会建在目录…&#x2F;blog&#x2F;source&#x2F;_posts下。</p><p>所有的文章都会以md形式保存在_post文件夹中，只要在_post文件夹中新建md类型的文档，就能在执行hexo g的时候被渲染。</p><p>文章编辑完成后<br>hexo g<br>hexo d</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/city.jpg"></p><h1 id="常用指令和发布文章"><a href="#常用指令和发布文章" class="headerlink" title="常用指令和发布文章"></a>常用指令和发布文章</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>        //新建文章</span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span>   //新建页面</span><br><span class="line">hexo g                     //生成静态页面至public目录</span><br><span class="line">hexo server                //开启预览访问端口（默认端口<span class="number">4000</span>，<span class="string">&#x27;ctrl + c&#x27;</span>关闭server）</span><br><span class="line">hexo deploy                //将.deploy目录部署到GitHub</span><br></pre></td></tr></table></figure><h1 id="常用组合"><a href="#常用组合" class="headerlink" title="常用组合"></a>常用组合</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line">hexo d -g #生成部署</span><br><span class="line">hexo s -g #生成预览</span><br></pre></td></tr></table></figure><h1 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">&quot;xxx&quot;</span></span><br></pre></td></tr></table></figure><p>名为xxx.md的文件会建在目录…&#x2F;blog&#x2F;source&#x2F;_posts下。<br>文章编辑完成后</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>所有的文章都会以md形式保存在_post文件夹中，只要在_post文件夹中新建md类型的文档，就能在执行hexo g的时候被渲染。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;常用指令和发布文章&lt;br&gt;hexo new “postName”        &amp;#x2F;&amp;#x2F;新建文章&lt;br&gt;hexo new page “pageName”        &amp;#x2F;&amp;#x2F;新建页面&lt;br&gt;hexo g          &amp;#x2F;&amp;#x</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/city.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;常用指令和发布文章&quot;&gt;&lt;a href=&quot;#常用指令和发布文章&quot; class=&quot;hea</summary>
       
     
     
     
+    
+    <category term="Github Hexo" scheme="http://example.com/tags/Github-Hexo/"/>
     
   </entry>
   
