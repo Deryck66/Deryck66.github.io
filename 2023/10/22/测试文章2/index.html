@@ -15,7 +15,7 @@
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
         
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":["https://github.com/","https://twitter.com/","https://facebook.com/","https://plus.google.com/","mailto"]},"articleBody":"常用指令和发布文章hexo new “postName”        &#x2F;&#x2F;新建文章hexo new page “pageName”        &#x2F;&#x2F;新建页面hexo g          &#x2F;&#x2F;生成静态页面至public目录hexo server         &#x2F;&#x2F;开启预览访问端口（默认端口4000，’ctrl + c’关闭server）hexo deploy         &#x2F;&#x2F;将.deploy目录部署到GitHub\n常用组合hexo cleanhexo ghexo dhexo d -g #生成部署hexo s -g #生成预览\n发布文章hexo new “xxx”\n名为xxx.md的文件会建在目录…&#x2F;blog&#x2F;source&#x2F;_posts下。\n所有的文章都会以md形式保存在_post文件夹中，只要在_post文件夹中新建md类型的文档，就能在执行hexo g的时候被渲染。\n文章编辑完成后hexo ghexo d\n","dateCreated":"2023-10-22T02:06:54+08:00","dateModified":"2023-10-22T02:15:41+08:00","datePublished":"2023-10-22T02:06:54+08:00","description":"","headline":"Hexo的常用命令","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":["https://github.com/","https://twitter.com/","https://facebook.com/","https://plus.google.com/","mailto"]},"url":"http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":["https://github.com/","https://twitter.com/","https://instagram.com/","https://www.google.com/","mailto"],"image":"source/assets/images/ico.png"},"articleBody":"常用指令和发布文章hexo new “postName”        &#x2F;&#x2F;新建文章hexo new page “pageName”        &#x2F;&#x2F;新建页面hexo g          &#x2F;&#x2F;生成静态页面至public目录hexo server         &#x2F;&#x2F;开启预览访问端口（默认端口4000，’ctrl + c’关闭server）hexo deploy         &#x2F;&#x2F;将.deploy目录部署到GitHub\n常用组合hexo cleanhexo ghexo dhexo d -g #生成部署hexo s -g #生成预览\n发布文章hexo new “xxx”\n名为xxx.md的文件会建在目录…&#x2F;blog&#x2F;source&#x2F;_posts下。\n所有的文章都会以md形式保存在_post文件夹中，只要在_post文件夹中新建md类型的文档，就能在执行hexo g的时候被渲染。\n文章编辑完成后hexo ghexo d\n","dateCreated":"2023-10-22T02:06:54+08:00","dateModified":"2023-10-22T02:15:41+08:00","datePublished":"2023-10-22T02:06:54+08:00","description":"","headline":"Hexo的常用命令","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":["https://github.com/","https://twitter.com/","https://instagram.com/","https://www.google.com/","mailto"],"image":"source/assets/images/ico.png","logo":{"@type":"ImageObject","url":"source/assets/images/ico.png"}},"url":"http://example.com/2023/10/22/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"}</script>
     <meta name="description" content="常用指令和发布文章hexo new “postName”        &#x2F;&#x2F;新建文章hexo new page “pageName”        &#x2F;&#x2F;新建页面hexo g          &#x2F;&#x2F;生成静态页面至public目录hexo server         &#x2F;&#x2F;开启预览访问端口（默认端口4000，’ctrl +">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Hexo的常用命令">
@@ -27,10 +27,13 @@
 <meta property="article:modified_time" content="2023-10-21T18:15:41.474Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@fanyuhu">
     
     
         
     
+    
+        <meta property="og:image" content="http://example.com/assets/images/source/assets/images/ico.png"/>
     
     
     
@@ -54,8 +57,6 @@
             <!-- Define author's picture -->
 
 
-    
-
 <header id="header" data-behavior="4">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
@@ -70,11 +71,13 @@
     
         
             <a
-                class="header-right-picture "
+                class="header-right-icon "
                 href="#about"
                 aria-label="打开链接: /#about"
             >
         
+        
+            <i class="ico.png fa-lg"></i>
         
         </a>
     
@@ -83,8 +86,26 @@
             <!-- Define author's picture -->
 
 
+
+        
+    
+
 <nav id="sidebar" data-behavior="4">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a
+                    href="/#about"
+                    aria-label="阅读有关作者的更多信息"
+                >
+                    <img class="sidebar-profile-picture" src="/assets/images/source/assets/images/ico.png" alt="作者的图片"/>
+                </a>
+                <h4 class="sidebar-profile-name">John Doe</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -168,7 +189,7 @@
                             rel="noopener"
                             title="关于"
                         >
-                        <i class="sidebar-button-icon fa fa-question" aria-hidden="true"></i>
+                        <i class="sidebar-button-icon fa fa-user" aria-hidden="true"></i>
                         <span class="sidebar-button-desc">关于</span>
                     </a>
             </li>
@@ -213,15 +234,15 @@
                     
                         <a
                             class="sidebar-button-link "
-                            href="https://facebook.com/"
+                            href="https://instagram.com/"
                             
                                 target="_blank"
                             
                             rel="noopener"
-                            title="Facebook"
+                            title="instagram"
                         >
-                        <i class="sidebar-button-icon fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Facebook</span>
+                        <i class="sidebar-button-icon fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">instagram</span>
                     </a>
             </li>
             
@@ -229,15 +250,15 @@
                     
                         <a
                             class="sidebar-button-link "
-                            href="https://plus.google.com/"
+                            href="https://www.google.com/"
                             
                                 target="_blank"
                             
                             rel="noopener"
-                            title="Google Plus"
+                            title="google"
                         >
-                        <i class="sidebar-button-icon fab fa-google-plus" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Google Plus</span>
+                        <i class="sidebar-button-icon fab fa-google" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">google</span>
                     </a>
             </li>
             
@@ -359,7 +380,7 @@
             <a
                 class="post-action-btn btn btn--default btn-open-shareoptions"
                 href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
+                aria-label="Share this post"
             >
                 <i class="fa fa-share-alt" aria-hidden="true"></i>
             </a>
@@ -409,7 +430,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
             
                 <i class="fa fa-list" aria-hidden="true"></i>
             </a>
@@ -471,7 +492,7 @@
             <a
                 class="post-action-btn btn btn--default btn-open-shareoptions"
                 href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
+                aria-label="Share this post"
             >
                 <i class="fa fa-share-alt" aria-hidden="true"></i>
             </a>
@@ -521,7 +542,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
             
                 <i class="fa fa-list" aria-hidden="true"></i>
             </a>
@@ -584,11 +605,17 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
+        
+            <img id="about-card-picture" src="/assets/images/source/assets/images/ico.png" alt="作者的图片"/>
         
             <h4 id="about-card-name">John Doe</h4>
         
