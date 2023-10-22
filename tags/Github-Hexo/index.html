@@ -10,6 +10,8 @@
     <meta name="author" content="Deryck">
     
     
+        <link rel="icon" href="http://example.com/assets/images/favicon.ico">
+    
     
         
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
@@ -302,7 +304,7 @@
     <section class="postShorten-group main-content-wrap">
     
     
-    <article class="postShorten postShorten--thumbnailimg-bottom">
+    <article class="postShorten postShorten--thumbnailimg-right">
         <div class="postShorten-wrap">
             
             <div class="postShorten-header">
@@ -311,9 +313,9 @@
                         <a
                             class="link-unstyled"
                             href="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"
-                            aria-label=": Hexo的常用命令"
+                            aria-label=": Hexo 常用指令"
                         >
-                            Hexo的常用命令
+                            Hexo 常用指令
                         </a>
                     
                 </h1>
@@ -328,30 +330,17 @@
 
             </div>
             
-                <div class="postShorten-content">
-                    <p><img src="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/city.jpg"></p>
-<h1 id="常用指令和发布文章"><a href="#常用指令和发布文章" class="headerlink" title="常用指令和发布文章"></a>常用指令和发布文章</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;postName&quot;</span>        //新建文章</span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span>   //新建页面</span><br><span class="line">hexo g                     //生成静态页面至public目录</span><br><span class="line">hexo server                //开启预览访问端口（默认端口<span class="number">4000</span>，<span class="string">&#x27;ctrl + c&#x27;</span>关闭server）</span><br><span class="line">hexo deploy                //将.deploy目录部署到GitHub</span><br></pre></td></tr></table></figure>
-<h1 id="常用组合"><a href="#常用组合" class="headerlink" title="常用组合"></a>常用组合</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line">hexo d -g #生成部署</span><br><span class="line">hexo s -g #生成预览</span><br></pre></td></tr></table></figure>
-<h1 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">&quot;xxx&quot;</span></span><br></pre></td></tr></table></figure>
-<p>名为xxx.md的文件会建在目录…&#x2F;blog&#x2F;source&#x2F;_posts下。<br>文章编辑完成后</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>所有的文章都会以md形式保存在_post文件夹中，只要在_post文件夹中新建md类型的文档，就能在执行hexo g的时候被渲染。</p>
-
+                <div class="postShorten-excerpt">
+                    <p><img src="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/city.jpg"><br>入门Hexo所需的常用命令，留下备查，防止托更之后的记忆遗忘。</p>
                     
+                        <a
+                            href="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"
+                            class="postShorten-excerpt_link link"
+                            aria-label=": Hexo 常用指令"
+                        >
+                            阅读全文
+                        </a>
                         
-
-
-                    
-                    
-                        <p>
-                            <a
-                                href="/2023/10/22/Hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/#post-footer"
-                                class="postShorten-excerpt_link link"
-                                aria-label=""
-                            >
-                                评论和共享
-                            </a>
-                        </p>
                     
                 </div>
             
@@ -407,6 +396,12 @@
 
             </div>
         
+        
+            <div id="about-card-location">
+                <i class="fa fa-map-marker-alt"></i>
+                <br/>
+                HongKong
+            </div>
         
     </div>
 </div>
